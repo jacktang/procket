@@ -30,7 +30,7 @@
 %% POSSIBILITY OF SUCH DAMAGE.
 -module(bpf).
 
--include("bpf.hrl").
+-include("include/bpf.hrl").
 
 % BPF ioctl
 -export([

@@ -31,7 +31,7 @@
 
 %% Support for msghdr and cmsghdr structures
 -module(procket_msg).
--include("procket_msg.hrl").
+-include("include/procket_msg.hrl").
 
 -export([
         iovec/1,

@@ -34,7 +34,7 @@
 %% specific interfaces.
 %%
 -module(packet).
--include("packet.hrl").
+-include("include/packet.hrl").
 -export([
         socket/0, socket/1,
         iflist/0,
